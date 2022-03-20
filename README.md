@@ -1,7 +1,7 @@
 ## Initial setup
 
-This project was created with Laravel, with and was created in a WSL2 environment through Windows with sail.
-For more ingotmation please visit the official [Getting started guide](https://laravel.com/docs/9.x/installation#getting-started-on-windows) on the laravel home page.
+This project was created with Laravel, in a WSL2 environment through Windows with sail.
+For more information please visit the official [Getting started guide](https://laravel.com/docs/9.x/installation#getting-started-on-windows) on the laravel home page.
 
 To learn sail, there is an official [documentation](https://laravel.com/docs/9.x/sail#introduction) for it too.
 
@@ -42,8 +42,7 @@ sail up
 
 and on [http://localhost/](http://localhost/) the application shall be ready.
 
-If you have dns issues with the last command still.
-Please add the google DNS server to your /etc/resolv.conf file:
+On mac and linux you should be fine, but if you have dns issues with the last command still, then please add the google DNS server to your /etc/resolv.conf file:
 
 ```
 echo "nameserver 8.8.8.8" >> /etc/resolv.conf
